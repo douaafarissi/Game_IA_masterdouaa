@@ -1,8 +1,8 @@
-# Titre du Projet
+************* Titre du Projet************
 GAME WITH IA 
-# Description
-Le présent projet se matérialise sous la forme d'une application interactive conçue au moyen du framework p5.js, un outil dédié à la création visuelle en ligne. Il s'agit d'une simulation interactive implémentant des comportements autonomes pour des véhicules virtuels.
-Fonctionnalités
+************Description********
+Le présent projet se matérialise sous la forme d'une application interactive conçue au moyen du framework p5.js, un outil dédié à la création visuelle en ligne. Il s'agit d'une simulation interactive implémentant des comportements autonomes pour des véhicules virtuels. 
+*****Fonctionnalités********** 
 Le programme offre plusieurs modes de comportement :
 
  •	Gestion des Obstacles : Des obstacles sous format de rectangle rayé  sont présents dans l'environnement .
