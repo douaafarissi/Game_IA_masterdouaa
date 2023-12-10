@@ -1,5 +1,5 @@
 # Titre du Projet
-Autonomous Vehicles with Multi-Behavior System
+Game IA obctales and vehicules 
 # Description
 Le présent projet se matérialise sous la forme d'une application interactive conçue au moyen du framework p5.js, un outil dédié à la création visuelle en ligne. Il s'agit d'une simulation interactive implémentant des comportements autonomes pour des véhicules virtuels.
  
@@ -7,7 +7,7 @@ Le présent projet se matérialise sous la forme d'une application interactive c
 
  •	Gestion des Obstacles : Des obstacles sous format de circle .
  
-![obstacle](https://github.com/douaafarissi/Game_IA_masterdouaa/blob/master/assets/images/pc.png)
+![ia1](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/0cb9d331-c021-4640-bb07-98194bf2f7ac)
 
 
 
@@ -111,15 +111,13 @@ Simulateur de comportements de véhicules autonomes! Utilisez les touches du cla
 
 - **"v"** : Ajouter un nouveau véhicule à la position de la souris.
 - **"d"** : Activer/Désactiver le mode de débogage (affichage des vecteurs).
-- **"a"** : Créer 5 véhicules se déplaçant du bord gauche de l'écran vers la souris.
+- **"k"** : Créer 5 véhicules se déplaçant du bord gauche de l'écran vers la souris.
 - **"s"** : Activer le mode "Snake" - Les véhicules suivent le précédent.
 - **"p"** : Activer le mode "Poursuite" - Un véhicule poursuit la position de la souris et la cible qui a un point vert                 derière .
 - **"w"** : Activer le mode "Wander" - Un véhicule se déplace de manière aléatoire.
 
 Cliquez sur l'écran pour ajouter des obstacles à la position de la souris.
 
----
- Amusez-vous bien!
 
 
 
