@@ -9,110 +9,86 @@ Le présent projet se matérialise sous la forme d'une application interactive c
  
 ![ia1](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/0cb9d331-c021-4640-bb07-98194bf2f7ac)
 
+![Capture d'écran 2023-12-10 220417ddd2](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/76390d9e-3b7f-4a0f-94a5-0fe30a6e8c73)
 
-
-![Capture d'écran 2023-12-10 205901](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/51d027fc-c7a2-45e7-86f6-46da3c2df5ae)
   # Vue globale :
-![obstacle2](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/5c23378a-647f-485f-a0bd-1c7ca6a6e928)
+  
+![hh](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/9b90e4c7-a0cc-4794-a921-bfd5f250f8ee)
 
-•	Suivre un leader: Les véhicules peuvent être configurés pour suivre un leader, en utilisant un comportement "arrive" appliqué dans la méthode "applyBehaviors"  pour se déplacer vers la position de la souris (gérer par la variable target) . 
+•	Suivre un leader: Les véhicules peuvent être configurés pour suivre un leader, en utilisant un comportement "arrive" appliqué dans la méthode "applyBehaviors"  .
 
-![poursuite](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/364829e8-96dc-4e9b-adcd-65a26ecad363)
+![aa](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/dcffbf28-d0fd-4c36-a5ee-34a6b53796ce)
 
 "applyBehaviors"
 
-![applyBehaviors](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/cd9a3c3b-f11c-4a24-b6b7-8e66a2f8315d)
+![go](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/d841d256-c5c5-49a0-9e81-6841f2567b35)
+
 
 
 Un point derrière le leader est la cible des autres véhicules .
-![pointvert](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/a7f06758-0546-4eee-8151-4b720384b64e)
+![lll](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/c2f5be43-4364-4655-81aa-0dec7f7069a4)
 
 
-Ainsi qu’une distance est gardé entre les véhicules (gérer par separate qui prend en paramètre les véhicules) et avoid(obstacles) pour éviter les obtacles  .   v.applyBehaviors(vehiculePrecedent.pos, obstacles, vehicules, 40);
+Ainsi qu’une distance est gardé entre les véhicules (gérer par separate qui prend en paramètre les véhicules) et avoid(obstacles) pour éviter les obtacles  . 
 
-![followleader](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/e281b8a5-c0f9-428c-ad62-f7abfeeb5497)
+![pink](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/40d2c8aa-cd9a-4585-a575-0bf4e2e78f43)
 
-Enfin , comportement évasion quand on est dans la zone devant le leader .
-Si la souris se met dans evasionZone on applique la force d'évasion à tous les véhicules, y compris le leader qui suit target (dans notre cas target est la souris )
-
-![evasion](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/2ba0a376-6a46-4d8c-b961-caa1942ced97)
-
-Verification du comportement d'evasion .
-
-![comportementevasion](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/5ca64b86-4f26-4d97-9c32-b202f6e79093)
 
 •	Serpent :  où les véhicules suivent le véhicule précédent .
 
-![snake](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/8dc19ae0-6fd5-4c2b-8417-bb9bdf3bbb63)
-
-![snakegraphique](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/e36ea2b9-b557-4fe1-b00e-843872eafcd8)
+![se](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/80249438-7998-4f6a-b273-fde191f8405a)
 
 •	Wander : où les véhicules se déplacent de manière aléatoire.
 
-![wander](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/6f0f2919-ba03-48db-9863-e9e983c40cfd)
+![wander](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/bcbb5486-2f3a-44f7-935e-3531741fc372)
 
 Il faut ajouter dans la classe Vehicle des variables pour ce comportement Wander et la méthode .
+![ve](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/c7292739-23ab-4184-a199-d10a2d5179f8)
 
-![classevehiculewander](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/bae57ce1-983e-4c10-8dc8-935eb9d1c5c0)
 
-![wandermethode](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/9e129a3a-efb0-4be9-8617-9e33b8750d8a)
-
+![ww](https://github.com/douaafarissi/Game_IA_masterdouaaa/assets/102305869/dd0611af-46c4-436e-bcc0-299bbd2e6af6)
 # Vue globale :
 
-![wandergraphique](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/2e8879de-3f44-490e-af5a-1fec8ca7676a)
+![jj](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/0243905e-6b7d-442a-9d3c-e074e8726af1)
 
 --Curseurs pour régler les paramètres
-![curseur](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/6e24eff7-db0d-4fdc-a303-08d20ac9cd14)
-
-Mettre à jour les valeurs des curseurs dans la méthode draw
-
-![curseur2](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/3862e50f-46a1-4895-ab61-0d7029a7ad47)
+![mm](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/f0be32a2-3a2d-4405-a3a4-a141127dfe11)
 
 # Vue globale :
 
-![curseurgraphique](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/14b0dbf6-55da-4bd5-812e-10626b33c7b9)
-
+![pp](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/e2753039-57f1-4c9d-8d94-c1d533fd3aef)
 
 •	Mode débogage : 
- Cette fonction est utilisée pour représenter graphiquement un vecteur associé à la vitesse d'un véhicule.
-
-![drawVector](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/fae9c21b-2ae8-450b-ad14-7032acf7fd7a)
-
-Cette partie spécifique du code est utilisée pour dessiner une zone d'évitement devant un véhicule,stroke(255, 200, 0, 90) :Définit la couleur de la ligne de la zone d'évitement. 
-
-![zeonejaune](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/8c69c698-48e7-4aef-81e5-109b09fe716b)
-
 
  La fonction responsable du calcul de la force de pilotage d'un véhicule dans la simulation en tenant compte de divers facteurs tels que les obstacles, la vitesse maximale, et les alertes rouges en cas de proximité avec un obstacle.
 
-![pilotage](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/cafa8e6d-5430-4332-83f3-0e156d5f552d)
-
 Le code est destinée à aider à déboguer en affichant visuellement le vecteur ahead en rouge, ainsi que deux  cercles à l'extrémité de ce vecteur pour visualiser la zone de freinage. Ces éléments visuels peuvent être utiles pour comprendre le comportement du véhicule, en particulier en ce qui concerne sa capacité à anticiper et à réagir aux obstacles.
 
-![debugavoidvehicle](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/f00f02f2-74f9-4d26-ab18-7bdf04590d86)
+![Capture d'écran 2023-12-10 22402099999](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/d1bc8df9-449d-4177-a67c-ff467ebb08a4)
+
 
 #Vue globale:
+![deb](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/da1ee265-3f63-49d3-8c3b-029919d06d0c)
 
-![debuggraphique](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/be35af6c-eb2b-45a3-970a-aac0716fcbf2)
+
 
 
 •	Interaction Utilisateur : Les utilisateurs peuvent interagir avec l'environnement en déplaçant une cible à l'aide de la souris. 
 
-![mouse](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/b1fdd60e-d952-486c-923a-8d63447064c2)
 
 Ils peuvent également basculer entre différents modes en utilisant les touches du clavier.
 
-![keypressed](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/b23451e4-bdbc-45d5-b528-84aa964b2f0d)
+![Capture d'écran 2023-12-10 2242255555555](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/904f037a-396d-4e15-8f91-1d859ae97df1)
 
 ## Instructions d'utilisation
 
-Simulateur de comportements de véhicules autonomes! Utilisez les touches du clavier pour interagir avec le programme.
+
 
 - **"v"** : Ajouter un nouveau véhicule à la position de la souris.
 - **"d"** : Activer/Désactiver le mode de débogage (affichage des vecteurs).
-- **"k"** : Créer 5 véhicules se déplaçant du bord gauche de l'écran vers la souris.
+- **"k"** : Créer  véhicules se déplaçant du bord gauche de l'écran vers la souris.
 - **"s"** : Activer le mode "Snake" - Les véhicules suivent le précédent.
-- **"p"** : Activer le mode "Poursuite" - Un véhicule poursuit la position de la souris et la cible qui a un point vert                 derière .
+- **"p"** : Activer le mode "Poursuite" - Un véhicule poursuit la position de la souris  .
 - **"w"** : Activer le mode "Wander" - Un véhicule se déplace de manière aléatoire.
 
 Cliquez sur l'écran pour ajouter des obstacles à la position de la souris.
