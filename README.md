@@ -11,8 +11,7 @@ Le présent projet se matérialise sous la forme d'une application interactive c
 
 
 
-![obstaclerouge](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/d95b241e-c7dd-4f0d-ad78-7c8912cc3b62)
-
+![Capture d'écran 2023-12-10 205901](https://github.com/douaafarissi/Game_IA_masterdouaa/assets/102305869/51d027fc-c7a2-45e7-86f6-46da3c2df5ae)
   # Vue globale :
 ![obstacle2](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/5c23378a-647f-485f-a0bd-1c7ca6a6e928)
 
