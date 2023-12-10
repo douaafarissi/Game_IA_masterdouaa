@@ -1,16 +1,15 @@
 # Titre du Projet
 Autonomous Vehicles with Multi-Behavior System
 # Description
-Le projet actuel est une application interactive développée en utilisant le framework p5.js, un environnement de création visuelle pour le web.Le projet est une simulation interactive mettant en œuvre des comportements autonomes pour des véhicules virtuels. Ces véhicules réagissent à diverses interactions, créant ainsi une dynamique visuelle fascinante.
- Les principaux aspects de cette simulation comprennent :
-## Fonctionnalités
-Le programme offre plusieurs modes de comportement :
-
- •	Gestion des Obstacles : Des obstacles sous format de rectangle rayé  sont présents dans l'environnement .
+Le présent projet se matérialise sous la forme d'une application interactive conçue au moyen du framework p5.js, un outil dédié à la création visuelle en ligne. Il s'agit d'une simulation interactive implémentant des comportements autonomes pour des véhicules virtuels.
  
-![obstacle](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/b5142eec-cbdc-4103-b7c9-0c7854260795)
+## Fonctionnalités
 
-Et les véhicules sont programmés pour éviter les collisions avec eux; l'obstacle en vert quand on a pas de collision et est en rouge si on a de collision .
+ •	Gestion des Obstacles : Des obstacles sous format de circle .
+ 
+![obstacle](https://github.com/douaafarissi/Game_IA_masterdouaa/blob/master/assets/images/pc.png)
+
+
 
 ![obstaclerouge](https://github.com/Fatima-ACHBAD/Game_AI/assets/100408189/d95b241e-c7dd-4f0d-ad78-7c8912cc3b62)
 
